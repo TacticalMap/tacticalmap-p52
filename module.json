@@ -1,0 +1,66 @@
+{
+  "name": "tacticalmap-p52",
+  "id": "tacticalmap-p52",
+  "title": "Rich man's house",
+  "description": "A two-story house, a basement with a tunnel and a clearing next to the road.",
+  "author": "Tactical Master",
+  "authors": [],
+  "url": "https://www.patreon.com/tacticalmap",
+  "flags": {},
+  "version": "2.0",
+  "minimumCoreVersion": "0.7.5",
+  "compatibleCoreVersion": "13",
+  "scripts": [],
+  "esmodules": [],
+  "styles": [],
+  "languages": [],
+  "packs": [
+    {
+      "name": "rich-mans-house",
+      "label": "Rich man's house",
+      "path": "packs/rich-mans-house.db",
+      "type": "Scene",
+	  "entity": "Scene",
+      "module": "rich-mans-house",
+      "private": false
+    }
+  ],
+  "system": [],
+  "dependencies": [],
+  "socket": false,
+  "relationships": {
+    "requires": [
+      {
+        "id": "tagger",
+        "manifest": "https://github.com/fantasycalendar/FoundryVTT-Tagger/releases/latest/download/module.json",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "monks-active-tiles",
+        "manifest": "https://github.com/ironmonk88/monks-active-tiles/releases/latest/download/module.json",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "levels",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "wall-height",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "manifest": "https://raw.githubusercontent.com/TacticalMap/tacticalmap-p52/main/module.json",
+  "download": "https://github.com/TacticalMap/tacticalmap-p52/archive/refs/heads/main.zip",
+  "protected": false,
+  "coreTranslation": false
+}
